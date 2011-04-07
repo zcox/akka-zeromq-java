@@ -1,0 +1,12 @@
+<configuration scan="false" debug="false">
+	<appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>[%t] %4p %c{1}: %m%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- <logger name="akka" level="DEBUG" />  -->
+	<root level="INFO">
+		<appender-ref ref="stdout" />
+	</root>
+</configuration>
