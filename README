@@ -1,3 +1,12 @@
+This is code from my CIJUG talk on Actors.  I presented things in this order:
+1) akka/AsyncSend
+2) akka/AsyncRequestReply
+3) akka/Pi
+4) akka/weather
+5) zeromq/Server & Client
+6) zeromq/Publisher & Subscriber
+7) akkazeromq
+
 The pom defines the Akka dependencies, but 0MQ isn't in any maven repos I can find, so zmq.jar is included in the lib directory just to get everything to compile.
 
 To actually run the 0MQ examples you'll need both the 0MQ C library as well as the 0MQ JNI library.
