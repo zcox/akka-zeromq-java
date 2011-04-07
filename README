@@ -1,0 +1,5 @@
+The pom defines the Akka dependencies, but 0MQ isn't in any maven repos I can find, so zmq.jar is included in the lib directory just to get everything to compile.
+
+To actually run the 0MQ examples you'll need both the 0MQ C library as well as the 0MQ JNI library.
+ - http://www.zeromq.org/intro:get-the-software
+ - http://www.zeromq.org/bindings:java
